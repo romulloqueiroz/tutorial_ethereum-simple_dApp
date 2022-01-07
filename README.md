@@ -4,7 +4,8 @@
   ---
 ### You can find the article here:
 <ul>
-  <li><strong>pt1:</strong> https://www.linkedin.com/pulse/pt1-easily-create-decentralized-application-dapp-react-bernardo/</li>
+  <li><strong>pt1:</strong> https://www.linkedin.com/pulse/pt1-easily-create-decentralized-application-dapp-react-bernardo/</li><br/>
+  <li><strong>pt2:</strong> https://www.linkedin.com/pulse/pt2-easily-create-decentralized-application-dapp-react-bernardo/</li>
 </ul>
   ---
 <img src='github.png' />

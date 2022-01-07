@@ -743,7 +743,7 @@
   "sourceMap": "62:176:1:-:0;;;;;;;;;;;;;;;;;;;",
   "deployedSourceMap": "62:176:1:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;163:73;;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;101:58;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;163:73;204:7;225:6;;218:13;;163:73;:::o;101:58::-;151:3;142:6;:12;;;;101:58;:::o;7:77:2:-;44:7;73:5;62:16;;7:77;;;:::o;90:118::-;177:24;195:5;177:24;:::i;:::-;172:3;165:37;90:118;;:::o;214:222::-;307:4;345:2;334:9;330:18;322:26;;358:71;426:1;415:9;411:17;402:6;358:71;:::i;:::-;214:222;;;;:::o;523:117::-;632:1;629;622:12;769:122;842:24;860:5;842:24;:::i;:::-;835:5;832:35;822:63;;881:1;878;871:12;822:63;769:122;:::o;897:139::-;943:5;981:6;968:20;959:29;;997:33;1024:5;997:33;:::i;:::-;897:139;;;;:::o;1042:329::-;1101:6;1150:2;1138:9;1129:7;1125:23;1121:32;1118:119;;;1156:79;;:::i;:::-;1118:119;1276:1;1301:53;1346:7;1337:6;1326:9;1322:22;1301:53;:::i;:::-;1291:63;;1247:117;1042:329;;;;:::o",
   "source": "// SPDX-License-Identifier: GPL-3.0\npragma solidity ^0.8.11;\n\ncontract Storage {\n  uint256 number;\n  function store(uint256 num) public {\n    number = num;\n  }\n\n  function retrieve() public view returns (uint256){\n    return number;\n  }\n}",
-  "sourcePath": "/Users/rom/Desktop/tutorial_dapp/src/truffle/contracts/Storage.sol",
+  "sourcePath": "/Users/rom/Desktop/tutorial_ethereum-simple_dApp/src/truffle/contracts/Storage.sol",
   "ast": {
     "absolutePath": "project:/contracts/Storage.sol",
     "exportedSymbols": {
@@ -1266,12 +1266,12 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0x2E984148E4bf7D19165d9c7a6a9A70773Cf56Bf5",
-      "transactionHash": "0x84d6b8d40f79b80f0b613dd7a3a00ede70b6568542b05f4d0aca03997b8bba5c"
+      "address": "0xe9C8160C18410a9d3871C6f50DcCaa4eC4cC666F",
+      "transactionHash": "0x0b196e59cc3aff44549fe6780be03fa8aaeb3104753404df8d5362627dd32881"
     }
   },
   "schemaVersion": "3.4.4",
-  "updatedAt": "2022-01-06T01:08:30.133Z",
+  "updatedAt": "2022-01-07T07:11:21.276Z",
   "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",

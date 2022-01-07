@@ -27,7 +27,7 @@ const App = () => {
   }, [contract])
 
   return (
-    <div>
+    <>
       <Navbar />
       <form 
         className='container mt-5'
@@ -54,7 +54,7 @@ const App = () => {
       <div className='container mt-5'>
         <h1>{ethers.utils.formatUnits(contractNumber, 0)}</h1>
       </div>
-    </div>
+    </>
   )
 }
 
